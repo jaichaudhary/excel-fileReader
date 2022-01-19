@@ -300,6 +300,7 @@ function FileUploader() {
                       }}
                     >
                       <p>Drag header names here...</p>
+                      {isOver && "✔"}
                     </div>
                   )}
                 </div>

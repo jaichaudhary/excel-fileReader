@@ -13,7 +13,7 @@ export const HeaderNameCard = ({ id, name }) => {
   return (
     <div className="headerNameCard" ref={dragRef}>
       {name}
-      {isDragging && "😱"}
+      {isDragging && " ✔"}
     </div>
   );
 };
