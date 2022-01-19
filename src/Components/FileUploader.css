@@ -1,0 +1,87 @@
+.fileUploader {
+  margin-top: 20px;
+}
+
+.fileUploader__btnHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fileUploader__btn {
+  width: 100px;
+  background-color: #e3e3e3;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.fileUploader__btn:hover {
+  background-color: rgb(29, 156, 91);
+  color: white;
+}
+
+.fileUploader__del {
+  width: 100px;
+  background-color: #e3e3e3;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.fileUploader__del:hover {
+  background-color: rgb(248, 73, 72);
+  color: white;
+}
+
+.fileUploader__dataBlock {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.fileUploader__leftBlock {
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.fileUploader__rightBlock {
+  flex: 1;
+  padding: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.fileUploader__toggle {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fileUploader__toggleDiv {
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e3e3e3;
+  border-radius: 5px;
+}
+
+.fileUploader__toggleLeft {
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.fileUploader__toggleRight {
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
